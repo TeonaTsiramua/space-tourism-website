@@ -254,15 +254,15 @@
   }
 
   #vehicle-image {
-    content: url(/assets/technology/image-launch-vehicle-portrait.jpg);
+    content: url(../../assets/technology/image-launch-vehicle-portrait.jpg);
   }
 
   #spaceport-image {
-    content: url(/assets/technology/image-spaceport-portrait.jpg);
+    content: url(../../assets/technology/image-spaceport-portrait.jpg);
   }
 
   #capsule-image {
-    content: url(/assets/technology/image-space-capsule-portrait.jpg);
+    content: url(../../assets/technology/image-space-capsule-portrait.jpg);
   }
 
   .grid-container--technology .numbered-title {

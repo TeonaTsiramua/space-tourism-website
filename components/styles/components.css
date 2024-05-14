@@ -16,7 +16,7 @@
 }
 
 .large-button::after {
-  content: "";
+  content: '';
   position: absolute;
   z-index: -1;
   width: 100%;
@@ -92,7 +92,7 @@
     border: 0;
   }
 
-  .primary-navigation[data-visible="true"] {
+  .primary-navigation[data-visible='true'] {
     transform: translateX(0);
   }
 
@@ -111,7 +111,7 @@
     aspect-ratio: 1;
   }
 
-  .mobile-nav-toggle[aria-expanded="true"] {
+  .mobile-nav-toggle[aria-expanded='true'] {
     background-image: url(../../assets/shared/icon-close.svg);
   }
 
@@ -135,7 +135,7 @@
 
 @media (min-width: 55em) {
   .primary-header::after {
-    content: "";
+    content: '';
     display: block;
     position: relative;
     height: 0.07px;
@@ -171,7 +171,7 @@
 }
 
 .underline-indicators > .active,
-.underline-indicators > [aria-selected="true"] {
+.underline-indicators > [aria-selected='true'] {
   color: hsl(var(--clr-white) / 1);
   border-color: hsl(var(--clr-white) / 1);
 }
@@ -194,7 +194,7 @@
   background-color: hsl(var(--clr-white) / 0.5);
 }
 
-.dot-indicators > [aria-selected="true"] {
+.dot-indicators > [aria-selected='true'] {
   background-color: hsl(var(--clr-white) / 1);
 }
 
@@ -217,7 +217,7 @@
   cursor: pointer;
 }
 
-.number-indicators > [aria-selected="true"] {
+.number-indicators > [aria-selected='true'] {
   background-color: hsl(var(--clr-white) / 1);
   color: hsl(var(--clr-dark));
 }

@@ -19,9 +19,9 @@
   --fs-200: 0.875rem;
 
   /* font-families */
-  --ff-serif: "Bellefair", serif;
-  --ff-sans-cond: "Barlow Condensed", sans-serif;
-  --ff-sans-normal: "Barlow", sans-serif;
+  --ff-serif: 'Bellefair', serif;
+  --ff-sans-cond: 'Barlow Condensed', sans-serif;
+  --ff-sans-normal: 'Barlow', sans-serif;
 }
 
 @media (min-width: 35em) {
@@ -48,7 +48,6 @@
 /* ------------------- */
 /* Reset               */
 /* ------------------- */
-
 
 /* Box sizing */
 *,
@@ -90,7 +89,6 @@ body {
   min-height: 100vh;
   display: grid;
   grid-template-rows: min-content 1fr;
-
   overflow-x: hidden;
 }
 
@@ -120,8 +118,3 @@ select {
     scroll-behavior: auto !important;
   }
 }
-
-
-
-
-
